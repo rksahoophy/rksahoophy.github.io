@@ -1,0 +1,196 @@
+{
+ "source": "https://scholar.google.com/citations?user=6tgTCVIAAAAJ",
+ "updated": "15 November 2026",
+ "stats": {
+  "citations": 354,
+  "h": 10,
+  "i10": 10
+ },
+ "ignore": [
+  "Hydrogen storage in Li functionalized [2, 2, 2] paracyclophane at cryogenic to room temperatures: A computational quest"
+ ],
+ "works": [
+  {
+   "title": "Hydrogen storage properties and capacity of Li decorated C12B8 nano-cage: a computational quest",
+   "authors": "RK Sahoo, V Harmandaris",
+   "venue": "Structural Chemistry, 1-14",
+   "cites": 0,
+   "year": "2026"
+  },
+  {
+   "title": "Reversible hydrogen storage on Li-, Na- and K-decorated C12N8 nanocages: A combined DFT and Ab initio molecular dynamics study",
+   "authors": "KK Barik, RK Sahoo, SR Parida, P Kour, S Sahu",
+   "venue": "Structural Chemistry, 1-19",
+   "cites": 0,
+   "year": "2026"
+  },
+  {
+   "title": "A Quest to High-Capacity Reversible Hydrogen Storage on Li-Decorated Triazole and Tetrazole Systems: An In-Silico Approach",
+   "authors": "MK Dash, S Bhowmick, S Bhattacharyya, RK Sahoo, A Bag, DK Das, ...",
+   "venue": "ES Chemistry and Sustainability 5, 1934",
+   "cites": 3,
+   "year": "2025"
+  },
+  {
+   "title": "Graphene and Its Derivatives: Synthesis, Properties, and Applications",
+   "authors": "RB Nayak, Debashish, Mourya, S., Sahoo, R. K., Ansari, S.,& Choudhary",
+   "venue": "Graphene–Metal Oxide Composites: Synthesis, Properties, and Applications, 80 …",
+   "cites": 0,
+   "year": "2025"
+  },
+  {
+   "title": "Density functional study of physisorption of H2 molecules on scandium and yttrium decorated C20 fullerene: prospect for hydrogen storage",
+   "authors": "N Praveer, RK Sahoo, S Sahu",
+   "venue": "Journal of Molecular Modeling 31 (1), 31",
+   "cites": 13,
+   "year": "2025"
+  },
+  {
+   "title": "Room‐Temperature Reversible Hydrogen Storage in Scandium‐Decorated [6] Cycloparaphenylene: Computational Insights",
+   "authors": "SR Parida, RK Sahoo, A Jaiswal, P Kour, B Chakraborty, S Sahu",
+   "venue": "Energy Storage 6 (8), e70093",
+   "cites": 8,
+   "year": "2024"
+  },
+  {
+   "title": "Feasibility of Li decorated Si6C14 and Si8C12 nanocages as promising hydrogen storage media: A computational study",
+   "authors": "A Jaiswal, RK Sahoo, S Sahu",
+   "venue": "arXiv preprint arXiv:2407.16420",
+   "cites": 1,
+   "year": "2024"
+  },
+  {
+   "title": "Reversible hydrogen storage in Li-functionalized [1, 1, 1, 1] paracyclophane: A computational insight",
+   "authors": "D Sen, RK Sahoo, A Jaiswal, S Mohanty, P Kour, S Sahu",
+   "venue": "International Journal of Hydrogen Energy 53, 308-317",
+   "cites": 10,
+   "year": "2024"
+  },
+  {
+   "title": "Reversible hydrogen storage in Li‐functionalized [2, 2, 2] paracyclophane at cryogenic to room temperatures: A computational quest",
+   "authors": "RK Sahoo, S Sahu",
+   "venue": "Energy Storage 5 (8), e474",
+   "cites": 8,
+   "year": "2023"
+  },
+  {
+   "title": "Reversible hydrogen storage in Ti decorated small boron clusters: Insights from molecular dynamics simulations",
+   "authors": "SS Ray, RK Sahoo, S Sahu",
+   "venue": "Journal of Physics and Chemistry of Solids 181, 111496",
+   "cites": 13,
+   "year": "2023"
+  },
+  {
+   "title": "Transition from chemisorption to physisorption of H2 on Ti functionalized [2, 2, 2] paracyclophane: A computational search for hydrogen storage",
+   "authors": "RK Sahoo, S Sahu",
+   "venue": "Journal of Energy Storage 63, 106951",
+   "cites": 44,
+   "year": "2023"
+  },
+  {
+   "title": "Transition from chemisorption to physisorption of H2 on Ti functionalized [2,2,2]paracyclophane: A computational search for hydrogen storage",
+   "authors": "SS Rakesh K. Sahoo",
+   "venue": "Journal of Energy Storage 63, 106951",
+   "cites": 0,
+   "year": "2023"
+  },
+  {
+   "title": "Hydrogen storage in Li functionalized [2, 2, 2] paracyclophane at cryogenic to room temperatures: A computational quest",
+   "authors": "RK Sahoo, S Sahu",
+   "venue": "arXiv preprint arXiv:2301.03974",
+   "cites": 1,
+   "year": "2023"
+  },
+  {
+   "title": "Computational studies of functionalized fullerenes and cyclophanes for hydrogen storage applications",
+   "authors": "RK Sahoo",
+   "venue": "Indian Institute of Technology (ISM), Dhanbad",
+   "cites": 0,
+   "year": "2023"
+  },
+  {
+   "title": "Reversible hydrogen storage capacity of Li and Sc doped novel C8N8 cage: Insights from density functional theory",
+   "authors": "RK Sahoo, S Sahu",
+   "venue": "International Journal of Energy Research 46 (15), 22585-22600",
+   "cites": 39,
+   "year": "2022"
+  },
+  {
+   "title": "Reversible hydrogen storage capacity of vanadium decorated small boron clusters (BnV2, n= 6–10): A dispersion corrected density functional study",
+   "authors": "SS Ray, RK Sahoo, S Sahu",
+   "venue": "Computational and Theoretical Chemistry 1217, 113899",
+   "cites": 22,
+   "year": "2022"
+  },
+  {
+   "title": "Reversible hydrogen storage capacity of Sc and Y functionalized [1, 1] paracyclophane: Insights from density functional study",
+   "authors": "RK Sahoo, P Kour, S Sahu",
+   "venue": "International Journal of Hydrogen Energy 47 (69), 29881-29895",
+   "cites": 19,
+   "year": "2022"
+  },
+  {
+   "title": "Theoretical study of linear and non-linear optical properties of small CaCn (n= 2–7) clusters",
+   "authors": "RK Sahoo, R Khatua, S Sahu",
+   "venue": "Materials Today: Proceedings 66, 3397-3400",
+   "cites": 2,
+   "year": "2022"
+  },
+  {
+   "title": "Hydrogen storage capacity of vanadium functionalized [2, 2] paracyclophane: A density functional theory study",
+   "authors": "RK Sahoo, SB Barik, S Sahu",
+   "venue": "Materials Today: Proceedings 66, 3360-3363",
+   "cites": 2,
+   "year": "2022"
+  },
+  {
+   "title": "Alkali metals decorated silicon clusters (SinMn, n= 6, 10; M= Li, Na) as potential hydrogen storage materials: A DFT study",
+   "authors": "A Jaiswal, RK Sahoo, SS Ray, S Sahu",
+   "venue": "International Journal of Hydrogen Energy 47 (3), 1775-1789",
+   "cites": 40,
+   "year": "2021"
+  },
+  {
+   "title": "Reversible hydrogen storage on alkali metal (Li and Na) decorated C20 fullerene: A density functional study",
+   "authors": "RK Sahoo, B Chakraborty, S Sahu",
+   "venue": "International Journal of Hydrogen Energy 46 (80), 40251-40261",
+   "cites": 107,
+   "year": "2021"
+  },
+  {
+   "title": "A first principle study of hydrogen storage in titanium-doped small carbon clusters (C 2n Ti n, n= 2–6)",
+   "authors": "RK Sahoo, SS Ray, S Sahu",
+   "venue": "Structural Chemistry 32, 1673–1683",
+   "cites": 19,
+   "year": "2021"
+  },
+  {
+   "title": "A density functional study of hydrogen storage in Li decorated C20 fullerene",
+   "authors": "RK Sahoo, SS Ray, S Sahu",
+   "venue": "AIP Conference Proceedings 2269 (1), 030110",
+   "cites": 2,
+   "year": "2020"
+  },
+  {
+   "title": "A theoretical study of non linear optical responses and photo-absorption in carbon doped boron cluster",
+   "authors": "SS Ray, RK Sahoo, S Sahu",
+   "venue": "AIP Conference Proceedings 2269 (1), 030111",
+   "cites": 0,
+   "year": "2020"
+  },
+  {
+   "title": "A density functional study of hydrogen storage in Li decorated C",
+   "authors": "RK Sahoo, SS Ray, S Sahu",
+   "venue": "",
+   "cites": 0,
+   "year": "2020"
+  },
+  {
+   "title": "Optical absorption in Al2N2 cluster: A time dependent density functional study",
+   "authors": "RK Sahoo, SS Ray, S Sahu",
+   "venue": "AIP Conference Proceedings 2115 (1), 030583",
+   "cites": 1,
+   "year": "2019"
+  }
+ ]
+}
