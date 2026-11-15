@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Rakesh Kumar Sahoo</title>
+<meta name="description" content="Research of Dr. Rakesh Kumar Sahoo: multiscale charge transport, solid-state and natural hydrogen, battery electrodes and solar thermal fuels.">
+<link rel="canonical" href="https://rksahoo.github.io/research.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Research | Rakesh Kumar Sahoo">
+<meta property="og:description" content="Research of Dr. Rakesh Kumar Sahoo: multiscale charge transport, solid-state and natural hydrogen, battery electrodes and solar thermal fuels.">
+<meta property="og:url" content="https://rksahoo.github.io/research.html">
+<meta property="og:image" content="https://rksahoo.github.io/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#142235"/><ellipse cx="22" cy="32" rx="15" ry="11" fill="#E2B23A"/><ellipse cx="42" cy="32" rx="15" ry="11" fill="#2BA3C4"/><circle cx="32" cy="32" r="6" fill="#fff"/></svg><span>Rakesh K. Sahoo</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Main"><a href="index.html">Home</a><a href="research.html" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="cv.html">CV</a><a href="gallery.html">Gallery</a><a href="resources.html">Resources</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-head"><div class="wrap">
+  <h1>Research</h1>
+  <p>I build computational models of energy materials, starting from electrons and working up to the scale where a material is useful.</p>
+</div></section>
+<section class="section" style="border-top:0;padding-top:0"><div class="wrap">
+  <figure class="theme-fig" style="max-width:860px"><img src="assets/img/figures/multiscale-pipeline.svg" alt="Three linked scales: electronic structure, atomistic dynamics, mesoscale kinetics"><figcaption>How my models connect: each scale passes parameters to the next, from couplings and energies to structures and dynamics to transport and capacity.</figcaption></figure>
+</div></section>
+<section class="section"><div class="wrap themes">
+<article class="theme" id="charge-transport">
+  <figure class="theme-fig"><img src="assets/img/figures/charge-transport.svg" alt="Charge carriers hopping along a path of conjugated segments" loading="lazy"><figcaption>A carrier hops between conjugated segments; each hop has a Marcus rate built from DFT couplings and reorganization energies.</figcaption></figure>
+  <div><span class="status">Current work, CaSToRC (2025 to present)</span><h3>Charge transport in organic semiconductors</h3><p>Conducting polymers such as PEDOT:PSS, blended with phosphorescent organometallic emitters like PtOEP, are promising for flexible optoelectronics, but their performance depends on how charges move through a disordered morphology.</p><p>With Prof. Vangelis Harmandaris I connect atomistic morphologies from molecular dynamics to charge mobilities, through electronic coupling calculations and kinetic Monte Carlo.</p><ul><li>Marcus-theory hopping rates from DFT electronic couplings</li><li>Random-walk and kinetic Monte Carlo mobility</li><li>An automated Python pipeline with YAML configuration and a desktop GUI</li><li>Atomistic morphologies from GROMACS molecular dynamics</li></ul></div>
+</article><article class="theme" id="hydrogen-storage">
+  <figure class="theme-fig"><img src="assets/img/figures/hydrogen-storage.svg" alt="Metal-decorated C20 cage with adsorbed hydrogen molecules" loading="lazy"><figcaption>Metal atoms on a C₂₀ cage polarize and bind H₂ molecules; gold and cyan lobes show where electron density gains and loses.</figcaption></figure>
+  <div><span class="status">Core expertise (2017 to present)</span><h3>Solid-state hydrogen storage</h3><p>Hydrogen is a clean energy carrier, but storing it compactly is hard: compression and liquefaction cost a lot of energy. I design materials that hold H₂ reversibly at near-ambient conditions.</p><p>My approach decorates light carbon and heteroatom frameworks with alkali, alkaline-earth and transition-metal atoms, then tests whether the H₂ binds strongly enough to stay but weakly enough to leave.</p><ul><li>Hosts: C₂₀ fullerene, C₈N₈, C₁₂N₈ and C₁₂B₈ nanocages, paracyclophanes, [6]cycloparaphenylene, triazole and tetrazole, boron and silicon clusters, calixarenes</li><li>Decorating atoms: Li, Na, K, Sc, Y, Ti, V, Zr</li><li>Kubas and charge-polarization binding, metal clustering barriers</li><li>Usable capacity from thermodynamics, desorption temperatures and ab initio MD</li></ul></div>
+</article><article class="theme" id="natural-hydrogen">
+  <figure class="theme-fig"><img src="assets/img/figures/natural-hydrogen.svg" alt="Rock layers with hydrogen generated in iron-rich basement and trapped beneath a seal" loading="lazy"><figcaption>Natural hydrogen forms when water oxidizes Fe²⁺ in minerals, and can accumulate beneath impermeable rock.</figcaption></figure>
+  <div><span class="status">Next, University of Saskatchewan (from 2027)</span><h3>Natural (geologic) hydrogen</h3><p>Hydrogen generated naturally underground could be a low-carbon resource. To judge where it forms and whether it stays put, we need to understand the reactions at mineral surfaces at the temperatures and pressures of the subsurface.</p><p>Supported by a CIRTA award, I will use quantum-mechanical modelling to study hydrogen generation from iron-bearing minerals and its retention in the subsurface.</p><ul><li>DFT and ab initio MD of water–mineral interfaces at subsurface conditions</li><li>Reaction pathways for Fe²⁺ oxidation and H₂ release</li><li>Machine-learning interatomic potentials to reach longer time and length scales</li></ul></div>
+</article><article class="theme" id="batteries">
+  <figure class="theme-fig"><img src="assets/img/figures/metal-ion-batteries.svg" alt="Metal ions intercalating between layers of an electrode" loading="lazy"><figcaption>Ions move into a layered host; binding energies, diffusion barriers and voltages decide how good the electrode is.</figcaption></figure>
+  <div><span class="status">Ongoing interest</span><h3>Electrodes for metal-ion batteries</h3><p>Beyond lithium-ion, batteries need electrodes that take up and release ions over many cycles without degrading, from abundant and safe elements.</p><ul><li>Ion binding and theoretical capacity</li><li>Diffusion barriers with nudged elastic band</li><li>Open-circuit voltage profiles</li></ul></div>
+</article><article class="theme" id="solar-thermal">
+  <figure class="theme-fig"><img src="assets/img/figures/solar-thermal-fuels.svg" alt="Energy diagram for a molecular photoswitch storing solar energy" loading="lazy"><figcaption>A photoswitch stores light as chemical strain and releases it as heat when it converts back.</figcaption></figure>
+  <div><span class="status">Ongoing interest</span><h3>Molecular solar thermal fuels</h3><p>Molecular solar thermal (MOST) systems store sunlight in a chemically stable, metastable isomer and release it as heat on demand. The challenge is to combine strong absorption, high stored energy and long storage time.</p><ul><li>Excited states and absorption with TD-DFT</li><li>Storage energy and thermal back-conversion barriers</li></ul></div>
+</article>
+</div></section>
+
+<section class="section"><div class="wrap two-col">
+  <h2>Other interests</h2>
+  <div><ul class="plain">
+    <li>Molecular dynamics of complex polymers</li>
+    <li>Carbon capture, and co-adsorption of methane and hydrogen for low-carbon fuels</li>
+    <li>CO₂ reduction and hydrogenation to higher alcohols</li>
+    <li>Water splitting, gas sensing and catalysis with ab initio DFT, including nitrite reduction on Cu-based metal–organic frameworks</li>
+    <li>Photocatalytic hydrogen evolution at heterostructures</li>
+    <li>Band-structure tuning of perovskites</li>
+    <li>Organic solar cells and OLEDs</li>
+    <li>Optoelectronic properties of carbon-based materials</li>
+  </ul></div>
+</div></section>
+
+<section class="section"><div class="wrap two-col">
+  <h2>Collaborators</h2>
+  <ul class="plain people">
+    <li>Prof. Vangelis Harmandaris<span class="aff">The Cyprus Institute</span></li>
+    <li>Prof. Sridhar Sahu<span class="aff">IIT (ISM) Dhanbad</span></li>
+    <li>Dr. B. Chakraborty<span class="aff">BARC, Mumbai</span></li>
+    <li>Prof. Paramjit Kour<span class="aff">BIT Mesra</span></li>
+    <li>Dr. Debashish Nayak<span class="aff">LARPM, CIPET Bhubaneswar</span></li>
+    <li>Dr. Ankita Jaiswal<span class="aff">IIT (ISM) Dhanbad</span></li>
+  </ul>
+</div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <p><strong style="color:var(--ink)">Dr. Rakesh Kumar Sahoo</strong></p>
+      <p>CaSToRC, The Cyprus Institute, Nicosia</p>
+      <p><a data-user="rksahoo.phy" data-domain="gmail.com" href="contact.html">email (enable JavaScript)</a></p>
+    </div>
+    <ul class="profiles"><li><a href="https://scholar.google.com/citations?user=6tgTCVIAAAAJ&hl=en" rel="me noopener">Google Scholar</a></li><li><a href="https://orcid.org/0000-0002-2388-3817" rel="me noopener">ORCID</a></li><li><a href="https://www.researchgate.net/profile/Rakesh-Sahoo-6" rel="me noopener">ResearchGate</a></li><li><a href="https://www.linkedin.com/in/rksahoophy/" rel="me noopener">LinkedIn</a></li><li><a href="https://github.com/rksahoophy" rel="me noopener">GitHub</a></li><li><a href="https://twitter.com/rksahoophy" rel="me noopener">X (Twitter)</a></li></ul>
+  </div>
+  <div class="wrap" style="margin-top:1.5rem"><p>© <span data-year>2026</span> Rakesh Kumar Sahoo. Figures on this site are original illustrations.</p></div>
+</footer>
+</body>
+</html>
