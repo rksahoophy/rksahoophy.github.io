@@ -70,7 +70,7 @@ p { margin: 0 0 1em; max-width: var(--measure); }
 }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; min-height: 4.25rem; gap: 1rem; }
 .brand { display: flex; align-items: center; gap: .65rem; color: var(--ink); text-decoration: none; font-family: var(--serif); font-weight: 600; font-size: 1.12rem; }
-.brand svg { width: 30px; height: 30px; }
+.brand svg, .brand img { width: 34px; height: 34px; }
 .nav { display: flex; gap: .25rem; font-family: var(--sans); font-size: .95rem; }
 .nav a { color: var(--ink-2); text-decoration: none; padding: .45rem .7rem; border-radius: 6px; }
 .nav a:hover { background: #E6ECF0; color: var(--ink); }
@@ -91,7 +91,7 @@ p { margin: 0 0 1em; max-width: var(--measure); }
 .hero-id { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.6rem; font-family: var(--sans); color: var(--muted); font-size: .95rem; line-height: 1.4; }
 .portrait { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; background: #DDE5EA; flex: none; border: 2px solid var(--surface); box-shadow: 0 0 0 1px var(--line); }
 .portrait-fallback { display: grid; place-items: center; font: 600 1.4rem var(--serif); color: var(--ink); }
-.hero h1 { margin-bottom: .35em; }
+.hero h1 { margin-bottom: .35em; white-space: nowrap; font-size: clamp(1.9rem, 4.6vw, 3.6rem); }
 .lede { font-size: var(--t-2); line-height: 1.5; color: var(--ink-2); max-width: 34ch; margin-bottom: 1.6rem; }
 .actions { display: flex; flex-wrap: wrap; gap: .7rem; }
 .btn { display: inline-flex; align-items: center; gap: .5rem; font: 600 .95rem var(--sans); text-decoration: none; padding: .75rem 1.15rem; border-radius: 999px; border: 1.5px solid var(--ink); color: var(--ink); background: transparent; cursor: pointer; }
