@@ -1,0 +1,51 @@
+[
+  {
+    "image": "assets/img/gallery/2025-cyi-christmas.jpg",
+    "fallback": "",
+    "title": "Christmas party at The Cyprus Institute",
+    "date": "December 2025",
+    "description": ""
+  },
+  {
+    "image": "assets/img/photos/gallery-2025-simea-group.jpg",
+    "fallback": "https://sites.google.com/sitesv-images-rt/APXyLQdlYyS407t8NpTyQeNthTML287iKGjT-MJMR5cvzPNY7VpwpKJvxQ2KYtyMr-_-X8VejUCias21fTTIhcHQt42dCDab92M1SQ55ZVTkEJ3CqOFx7B33SdzQFYxjOsF_j20rbuZ8yzGOaRJTtgfGNVh4ghiWecgUcf4Z7BSqtR_UndCKJPtkREGqkYuZ0uvGRWM9z7citBcMdaLRo0rw1k-dmzk2mYknNM2BWBRNyMs=w1280",
+    "title": "SimEA group get-together after work, The Cyprus Institute",
+    "date": "2025",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2024-technion-group-meeting.jpg",
+    "fallback": "",
+    "title": "Weekly group meeting, Technion – Israel Institute of Technology",
+    "date": "2024",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2023-phd-convocation.jpg",
+    "fallback": "",
+    "title": "Receiving the Ph.D. degree and Best Thesis Award from the Director, IIT (ISM) Dhanbad",
+    "date": "10 December 2023",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2023-rak-uae.jpg",
+    "fallback": "",
+    "title": "With H.H. Sheikh Saud bin Saqr Al Qasimi, Ruler of Ras Al Khaimah, UAE",
+    "date": "21 February 2023",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2018-cmrl-group.jpg",
+    "fallback": "",
+    "title": "Computational Materials Research Lab (CMRL), IIT (ISM) Dhanbad",
+    "date": "May 2018",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2013-refresher-course-smvdu.jpg",
+    "title": "Refresher Course in Experimental Physics, SMVD University, Katra",
+    "date": "October 2013",
+    "description": "The 52nd two-week Science Academies' (IASc–NASI–INSA) Refresher Course on Experimental Physics, held 8–24 October 2013 at Shri Mata Vaishno Devi University, Jammu and Kashmir.",
+    "fallback": ""
+  }
+]

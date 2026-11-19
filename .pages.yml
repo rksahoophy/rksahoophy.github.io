@@ -1,0 +1,130 @@
+# Pages CMS (https://pagescms.org): edit the website's content in web forms.
+# Sign in at app.pagescms.org with GitHub and open this repository.
+# Each save is a normal commit; GitHub Pages publishes it a few minutes later.
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: site
+    label: Site settings (affiliation, contact, About)
+    type: file
+    path: assets/data/site.json
+    format: json
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: honorific, label: Title before name, type: string }
+      - { name: position, label: Current position, type: string }
+      - { name: affiliation, label: Affiliation (short, used in header and footer), type: string }
+      - { name: affiliationFull, label: Affiliation (full), type: string }
+      - { name: city, label: City and country, type: string }
+      - { name: address, label: Postal address lines, type: string, list: true }
+      - name: map
+        label: Map location
+        type: object
+        fields:
+          - { name: lat, label: Latitude, type: number }
+          - { name: lng, label: Longitude, type: number }
+          - { name: label, label: Place name, type: string }
+      - name: emails
+        label: E-mail addresses
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: address, label: Address, type: string }
+      - name: profiles
+        label: Profile links
+        type: object
+        list: true
+        fields:
+          - { name: label, label: Label, type: string }
+          - { name: url, label: URL, type: string }
+      - { name: lede, label: Home page tagline, type: text }
+      - { name: about, label: About paragraphs, type: text, list: true }
+      - { name: openTo, label: Open to collaboration, type: text }
+      - { name: url, label: Website address, type: string }
+      - { name: photo, label: Portrait for the CV, type: image }
+      - { name: goatcounter, label: GoatCounter code (leave empty to switch off), type: string }
+
+  - name: news
+    label: News
+    type: file
+    path: assets/data/news.json
+    format: json
+    list: true
+    fields:
+      - { name: when, label: Date, type: string }
+      - { name: title, label: Headline (optional, bold), type: string }
+      - { name: text, label: Text, type: text }
+      - { name: highlight, label: Gold dot, type: boolean }
+
+  - name: awards
+    label: Awards and fellowships
+    type: file
+    path: assets/data/awards.json
+    format: json
+    list: true
+    fields:
+      - { name: year, label: Year, type: string }
+      - { name: text, label: Award, type: text }
+
+  - name: talks
+    label: Talks, posters and schools
+    type: file
+    path: assets/data/talks.json
+    format: json
+    list: true
+    fields:
+      - { name: when, label: Date, type: string }
+      - { name: type, label: "Type (Poster, Oral presentation...)", type: string }
+      - { name: event, label: Event and place, type: string }
+      - { name: title, label: Title of your talk or poster, type: text }
+
+  - name: reviewing
+    label: Reviewer for
+    type: file
+    path: assets/data/reviewing.json
+    format: json
+    list: true
+    fields:
+      - { name: journal, label: Journal, type: string }
+      - { name: publisher, label: Publisher (optional), type: string }
+
+  - name: gallery
+    label: Gallery
+    type: file
+    path: assets/data/gallery.json
+    format: json
+    list: true
+    fields:
+      - { name: image, label: Photo, type: image }
+      - { name: title, label: Caption, type: string }
+      - { name: date, label: Date, type: string }
+      - { name: description, label: Description (shown below the photo), type: text }
+      - { name: fallback, label: Backup image URL (optional), type: string }
+
+  - name: collaborators
+    label: Collaborators
+    type: file
+    path: assets/data/collaborators.json
+    format: json
+    list: true
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: affiliation, label: Affiliation, type: string }
+      - { name: url, label: Web page, type: string }
+      - { name: photo, label: Photo, type: image }
+
+  - name: software
+    label: Software
+    type: file
+    path: assets/data/software.json
+    format: json
+    list: true
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: description, label: Description, type: text }
+      - { name: tags, label: Tools used, type: string }
+      - { name: url, label: Code link (GitHub), type: string }
+      - { name: image, label: Picture or screenshot, type: image }

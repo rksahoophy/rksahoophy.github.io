@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Charge-transport pipeline",
+    "description": "An automated Python workflow that turns molecular-dynamics morphologies into charge mobilities: DFT electronic couplings, Marcus hopping rates and kinetic Monte Carlo, set up with a YAML file and run from a PyQt5 desktop interface.",
+    "tags": "Python, PyQt5, GROMACS, DFT, kinetic Monte Carlo",
+    "url": "",
+    "image": "assets/img/figures/charge-transport.svg"
+  }
+]

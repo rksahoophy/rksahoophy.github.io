@@ -7,7 +7,9 @@ The website reads that file on every visit to:
   * add any paper that is on Scholar but not yet in assets/js/publications.js
 
 Run by hand:      python3 tools/sync_scholar.py
-Run automatically: .github/workflows/sync-scholar.yml (weekly on GitHub)
+Run automatically: .github/workflows/update-site.yml (weekly on GitHub)
+
+It also saves citations per year ("perYear") for the chart on the Publications page.
 
 Google Scholar has no official API and sometimes blocks automated requests with a
 CAPTCHA. When that happens this script changes nothing and exits quietly, so the
@@ -30,6 +32,7 @@ class Profile(HTMLParser):
     def __init__(self):
         super().__init__()
         self.stats, self.works = [], []
+        self.hist_years, self.hist_bars = [], []   # citations-per-year histogram
         self._row = None
         self._field = None   # which text we are collecting
         self._gray = 0
@@ -38,6 +41,16 @@ class Profile(HTMLParser):
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         cls = a.get("class", "") or ""
+        if tag == "span" and "gsc_g_t" in cls:
+            self._field, self._buf = "hyear", ""
+            return
+        if tag == "a" and "gsc_g_a" in cls:
+            m = re.search(r"z-index:\s*(\d+)", a.get("style", "") or "")
+            self._zi = int(m.group(1)) if m else None
+            return
+        if tag == "span" and "gsc_g_al" in cls:
+            self._field, self._buf = "hcount", ""
+            return
         if tag == "td" and "gsc_rsb_std" in cls:
             self._field, self._buf = "stat", ""
         elif tag == "tr" and "gsc_a_tr" in cls:
@@ -58,6 +71,16 @@ class Profile(HTMLParser):
             self._buf += data
 
     def handle_endtag(self, tag):
+        if self._field == "hyear" and tag == "span":
+            if self._buf.strip().isdigit():
+                self.hist_years.append(int(self._buf.strip()))
+            self._field = None
+            return
+        if self._field == "hcount" and tag == "span":
+            if self._buf.strip().isdigit():
+                self.hist_bars.append((getattr(self, "_zi", None), int(self._buf.strip())))
+            self._field = None
+            return
         if self._field == "stat" and tag == "td":
             self.stats.append(self._buf.strip())
             self._field = None
@@ -82,6 +105,23 @@ class Profile(HTMLParser):
         self._field = None
 
 
+def histogram(years, bars):
+    """Map Scholar's bar chart to {year: citations}. Each bar's z-index counts
+    from the right-hand (latest) year, so years with no bar stay at 0."""
+    if not years:
+        return {}
+    counts = [0] * len(years)
+    if bars and all(z for z, _ in bars):
+        for z, c in bars:
+            if 1 <= z <= len(years):
+                counts[-z] = c
+    elif len(bars) == len(years):
+        counts = [c for _, c in bars]
+    else:
+        return {}
+    return {str(y): c for y, c in zip(years, counts)}
+
+
 def fetch(start):
     req = urllib.request.Request(URL.format(u=USER, s=start), headers={"User-Agent": UA, "Accept-Language": "en"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -89,7 +129,7 @@ def fetch(start):
 
 
 def main():
-    works, stats = [], []
+    works, stats, per_year = [], [], {}
     for start in range(0, 1000, 100):
         try:
             html = fetch(start)
@@ -103,6 +143,7 @@ def main():
         p.feed(html)
         if start == 0:
             stats = p.stats
+            per_year = histogram(p.hist_years, p.hist_bars)
         works += p.works
         if len(p.works) < 100:
             break
@@ -121,6 +162,7 @@ def main():
         "source": f"https://scholar.google.com/citations?user={USER}",
         "updated": datetime.date.today().strftime("%-d %B %Y"),
         "stats": {"citations": int(stats[0]), "h": int(stats[2]), "i10": int(stats[4])},
+        "perYear": per_year or old.get("perYear", {}),
         # Titles listed here are never added to the site (e.g. Scholar duplicates).
         "ignore": old.get("ignore", []),
         "works": works,

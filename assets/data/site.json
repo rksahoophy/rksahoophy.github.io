@@ -1,0 +1,65 @@
+{
+  "name": "Rakesh Kumar Sahoo",
+  "honorific": "Dr.",
+  "position": "Postdoctoral Researcher",
+  "affiliation": "CaSToRC, The Cyprus Institute",
+  "affiliationFull": "Computation-based Science and Technology Research Center (CaSToRC), The Cyprus Institute",
+  "city": "Nicosia, Cyprus",
+  "address": [
+    "Computation-based Science and Technology Research Center (CaSToRC)",
+    "The Cyprus Institute",
+    "20 Konstantinou Kavafi Street",
+    "2121 Aglantzia, Nicosia, Cyprus"
+  ],
+  "map": {
+    "lat": 35.141432,
+    "lng": 33.379654,
+    "label": "The Cyprus Institute, Nicosia"
+  },
+  "emails": [
+    {
+      "label": "Personal",
+      "address": "rksahoo.phy@gmail.com"
+    },
+    {
+      "label": "Institute",
+      "address": "r.sahoo@cyi.ac.cy"
+    }
+  ],
+  "profiles": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=6tgTCVIAAAAJ&hl=en"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-2388-3817"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/profile/Rakesh-Sahoo-6"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rksahoophy/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/rksahoophy"
+    },
+    {
+      "label": "X (Twitter)",
+      "url": "https://twitter.com/rksahoophy"
+    }
+  ],
+  "lede": "I design energy materials on a computer, from where hydrogen sticks to a metal atom to how charge moves through an organic semiconductor.",
+  "about": [
+    "I am a computational materials physicist. I use density functional theory, molecular dynamics and kinetic Monte Carlo to understand and predict how materials store energy and move charge.",
+    "At the Computation-based Science and Technology Research Center (CaSToRC) of The Cyprus Institute, I work with Prof. Vangelis Harmandaris on multiscale models of charge transport in organic semiconductor blends. Before that I was a postdoc at the Technion and at the Harish-Chandra Research Institute, and earned my Ph.D. in physics at IIT (ISM) Dhanbad with Prof. Sridhar Sahu, where my thesis on hydrogen storage in functionalized fullerenes and cyclophanes received the institute's Best Ph.D. Thesis Award.",
+    "I also teach high-performance computing through NCC Cyprus / EuroCC."
+  ],
+  "openTo": "I welcome collaborations on multiscale modelling of energy materials (hydrogen storage, natural hydrogen, charge transport and battery electrodes) and enquiries from students interested in computational materials science.",
+  "url": "https://rksahoophy.github.io/",
+  "photo": "assets/img/photos/profile.jpg",
+  "goatcounter": "rksahoophy"
+}
