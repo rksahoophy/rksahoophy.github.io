@@ -1,8 +1,29 @@
 [
+   {
+    "image": "assets/img/gallery/2026-ISFOE_Greece.jpg",
+    "fallback": "",
+    "title": "Presenting the ASPERIUM results at the International Symposium on Flexible Organic Electronics (ISFOE), Greece",
+    "date": "July 2026",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2025-cyi-christmas-party.jpg",
+    "fallback": "",
+    "title": "Christmas party at The Cyprus Institute, Cyprus",
+    "date": "December 2025",
+    "description": ""
+  },
   {
     "image": "assets/img/gallery/2025-cyi-christmas.jpg",
     "fallback": "",
-    "title": "Christmas party at The Cyprus Institute",
+    "title": "Christmas dinner with SimEA group at The Cyprus Institute",
+    "date": "December 2025",
+    "description": ""
+  },
+  {
+    "image": "assets/img/gallery/2025-cyi-christmas.jpg",
+    "fallback": "",
+    "title": "Christmas party with SimEA group at The Cyprus Institute",
     "date": "December 2025",
     "description": ""
   },
