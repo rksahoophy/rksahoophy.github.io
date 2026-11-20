@@ -1,10 +1,18 @@
 {
  "source": "https://scholar.google.com/citations?user=6tgTCVIAAAAJ",
- "updated": "15 November 2026",
+ "updated": "20 November 2026",
  "stats": {
   "citations": 354,
   "h": 10,
   "i10": 10
+ },
+ "perYear": {
+  "2021": 1,
+  "2022": 32,
+  "2023": 65,
+  "2024": 81,
+  "2025": 77,
+  "2026": 96
  },
  "ignore": [
   "Hydrogen storage in Li functionalized [2, 2, 2] paracyclophane at cryogenic to room temperatures: A computational quest"
