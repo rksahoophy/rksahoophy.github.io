@@ -10,7 +10,7 @@
    topics: one or more of the TOPICS ids below; links papers to research themes
            and drives the topic filter on the Publications page
    ========================================================================== */
-window.PUBLICATIONS_UPDATED = "15 November 2026";
+window.PUBLICATIONS_UPDATED = "27 November 2026";
 window.SCHOLAR = { citations: 354, h: 10, i10: 10 };
 window.PUBLICATIONS = [
   { topics: ["hydrogen-storage"], year: 2026, type: "journal", first: true, cites: 0,
@@ -151,7 +151,7 @@ window.PUBLICATIONS = [
     doi: "10.1063/1.5113422" },
   /* ---- under review / in press (from CV, April 2026) ---- */
   { topics: ["catalysis"], year: 2026, type: "forthcoming", first: true, status: "In production",
-    authors: "R. K. Sahoo, V. Harmandaris",
+    authors: "R. K. Sahoo",
     title: "Mixed-coordination Cu-based metal–organic frameworks for efficient nitrite adsorption and catalytic reduction" },
   { topics: ["batteries"], year: 2026, type: "forthcoming", first: false, status: "In production",
     authors: "D. Nayak, P. Panigrahi, M. K. Mallick, R. K. Sahoo",
