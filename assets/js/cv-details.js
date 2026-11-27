@@ -9,10 +9,10 @@
    do not want online; that item then simply disappears from the CV.
    ========================================================================== */
 window.CV_DETAILS = {
-  phones: ["(+91) 9090604678", "(+357) 96174383"],
+  phones: ["(+91) 909060xxxx", "(+357) 961743xx"],
 
   personal: [
-    ["Date of Birth", "27<sup>th</sup> June 1994"],
+    ["Year of Birth", "June 1994"],
     ["Gender", "Male"],
     ["Marital Status", "Married"],
     ["Nationality", "Indian"]
